@@ -2,14 +2,18 @@ package nonePrimitiveDataType;
 
 
 public class PrintHelloWorld {
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
-    char arr[] = {'B', 'A','N','G','L','A','D','E','S','H',};
-        System.out.println(arr);
-         System.out.println(arr[1]);
+int sum =0;
+int i = 5;
 
+while (i <=100){
+    sum =sum +i;
+    i = i+ 5;
+    }
+System.out.println("Sum is;" +sum);
         }
         }
+//5+10+15+..........+100=/
 
-// String - nothing but char array
-// Text
+
